@@ -334,9 +334,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
+- GitHub: [@yourusername](https://github.com/shubh-a11y)
+- LinkedIn: [Your Profile]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/shubhang-singh-28663b317/))
 
 ---
 
