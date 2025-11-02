@@ -11,7 +11,6 @@
 
 **A blockchain-based platform for creating, minting, and verifying digital achievements with cryptographic proof.**
 
-[Live Demo](#) | [Documentation](#project-structure) | [Report Bug](https://github.com/yourusername/achievements-dapp/issues)
 
 </div>
 
@@ -19,6 +18,7 @@
 
 ## 📖 Table of Contents
 
+- [Screenshots of Project](#screesnshots)
 - [About The Project](#about-the-project)
 - [Vision](#vision)
 - [Key Features](#key-features)
@@ -30,6 +30,13 @@
 - [Contributing](#contributing)
 
 ---
+
+## Screenshots
+![WhatsApp Image 2025-11-02 at 22 58 26_04b9fb71](https://github.com/user-attachments/assets/cbb1c421-82c1-47ff-be06-8d50ca109b0b)
+![WhatsApp Image 2025-11-02 at 22 58 49_3307d654](https://github.com/user-attachments/assets/da06afd7-e812-40c2-8192-920c53ebd36f)
+![WhatsApp Image 2025-11-02 at 22 59 14_a85846e8](https://github.com/user-attachments/assets/eed48401-6e87-441f-8a89-f36dac1cd880)
+![WhatsApp Image 2025-11-02 at 22 59 34_4d803c15](https://github.com/user-attachments/assets/b5ab942e-86a6-4e28-9531-b178a8dae339)
+
 
 ## 🎯 About The Project
 
