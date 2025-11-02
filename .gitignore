@@ -1,0 +1,157 @@
+# ===================================
+# RUST / SOROBAN CONTRACT
+# ===================================
+
+# Rust's output directory
+target/
+
+# Lock files
+Cargo.lock
+
+# Local Soroban/Stellar settings
+.soroban/
+.stellar/
+
+# Test snapshots (optional - remove if you want to commit them)
+test_snapshots/
+
+# ===================================
+# FRONTEND (Node.js / React)
+# ===================================
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment variables (IMPORTANT - contains secrets!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===================================
+# TEMPORARY / HELPER FILES
+# ===================================
+
+# Temporary documentation files (keep only main README.md)
+NEXT_STEPS.md
+DO_THIS_NOW.md
+INITIALIZATION_GUIDE.md
+CONTRACT_ALREADY_INITIALIZED.md
+ACCOUNT_REFERENCE.md
+HOW_TO_SWITCH_ACCOUNTS.md
+IMPORT_ALICE_GUIDE.md
+FIX_ADD_VERIFIER_ERROR.md
+PROJECT_SUMMARY.md
+
+# Keep pitch docs but ignore if you prefer
+# PROJECT_PITCH.md
+# QUICK_PITCH_GUIDE.md
+
+# ===================================
+# SECRET KEYS (CRITICAL!)
+# ===================================
+
+# Never commit secret keys or wallet files!
+*.secret
+*.key
+*.pem
+*secret*
+*SECRET*
+keys/
+wallets/
+
+# Stellar CLI keys (these contain secret keys!)
+# Note: The actual keys are usually in ~/.config/soroban/identity/
+# but just in case someone puts them in the repo:
+identity/
+*.toml
+
+# ===================================
+# OS SPECIFIC
+# ===================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===================================
+# TESTING & COVERAGE
+# ===================================
+
+coverage/
+*.lcov
+.nyc_output/
+.cache/
+
+# ===================================
+# MISC
+# ===================================
+
+# Compiled files
+*.wasm.d
+*.wasm.map
+
+# System files
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+
+# Database files (if any)
+*.sqlite
+*.db
