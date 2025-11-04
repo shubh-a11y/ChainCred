@@ -340,9 +340,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: (https://github.com/shubh-a11y)
-- LinkedIn: (https://www.linkedin.com/in/shubhang-singh-28663b317/))
+Shubhang Singh
+- GitHub: https://github.com/shubh-a11y
+- LinkedIn: https://www.linkedin.com/in/shubhang-singh-28663b317/
 
 ---
 
