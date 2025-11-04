@@ -119,9 +119,9 @@ export default function AchievementList() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {achievements.map((achievement) => (
+          {achievements.map((achievement, index) => (
             <AchievementCard
-              key={achievement.id}
+              key={`achievement-${achievement.id}-${index}`}
               achievement={achievement}
               onMint={handleMint}
             />
