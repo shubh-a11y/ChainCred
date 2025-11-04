@@ -84,16 +84,16 @@ export default function AdminChecker() {
 
   if (!isConnected) {
     return (
-      <div className="max-w-2xl mx-auto text-center py-12">
+      <div className="max-w-2xl mx-auto text-center py-12 px-4">
         <p className="text-xl text-gray-300">
-          Please connect your wallet to check admin status
+          Please connect your wallet first
         </p>
       </div>
     )
   }
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="max-w-2xl mx-auto px-4">
       <h2 className="text-3xl font-bold mb-8">🔍 Admin Checker</h2>
 
       <div className="bg-slate-800/50 p-8 rounded-xl">
