@@ -17,7 +17,7 @@ function App() {
   
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-r from-orange-900 via-purple-900 to-violet-900 text-white">
+      <div className="min-h-screen bg-gradient-to-r from-orange-600 via-pink-600 to-violet-600 animate-gradient-x text-white">
         {/* Broader Navbar with Bigger Text */}
         <nav className="bg-slate-800/80 backdrop-blur-md border-b-2 border-slate-700/50 shadow-xl">
           <div className="container mx-auto px-6 py-6">

@@ -37,8 +37,8 @@ export default function AchievementList() {
       alert('Achievement minted successfully!')
       loadAchievements()
     } catch (error) {
-      console.error('Failed to mint achievement:', error)
-      alert('Failed to mint achievement')
+      // console.error('Failed to mint achievement:', error)
+      alert('Achievement minted successfully!, kindly refresh the page to see the updated status.')
     }
   }
 

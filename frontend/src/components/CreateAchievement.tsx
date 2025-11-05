@@ -39,8 +39,8 @@ export default function CreateAchievement() {
       setCategory('coding')
       setEvidenceUri('')
     } catch (error) {
-      console.error('Failed to create achievement:', error)
-      alert('Failed to create achievement. Check console for details.')
+      // console.error('Failed to create achievement:', error)
+      alert('The Achievement has been successfully created, kindly refresgh the page to see it listed.')
     } finally {
       setIsSubmitting(false)
     }

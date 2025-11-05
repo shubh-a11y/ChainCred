@@ -10,9 +10,9 @@ export default function AdminChecker() {
 
   // Test accounts to check
   const testAccounts = [
-    { name: 'Account 1 (Current)', address: publicKey || '' },
-    { name: 'acc1 (CLI)', address: 'GCIAYLJSJJQE5NPRFUCWPHLCV5VJTDFH4YO2DIO5TUISCBULEO2GMXJF' },
-    { name: 'alice (CLI)', address: 'GCB7X43X4H4AWOVEJXT5LGOIJ27GZVOQG73XDW7GVUBBCCNZCF7CQO6S' },
+    { name: 'Account 1 (Current)', address: publicKey || '' }
+    // { name: 'acc1 (CLI)', address: 'GCIAYLJSJJQE5NPRFUCWPHLCV5VJTDFH4YO2DIO5TUISCBULEO2GMXJF' },
+    // { name: 'alice (CLI)', address: 'GCB7X43X4H4AWOVEJXT5LGOIJ27GZVOQG73XDW7GVUBBCCNZCF7CQO6S' },
   ]
 
   const checkAdmin = async () => {

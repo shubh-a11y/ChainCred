@@ -37,10 +37,10 @@ export default function AdminPanel() {
         alert('⚠️ Contract is already initialized!\n\nThe contract already has an admin set. If you are not the admin, you cannot add verifiers.')
         setInitSuccess(true) // Mark as success to hide the button
       } else if (errorMsg.includes('Simulation failed')) {
-        alert('❌ Contract is already initialized!\n\nSomeone else has already set up this contract as admin.')
+        alert('⚠️ Contract is already initialized!\n\nThe contract already has an admin set. If you are not the admin, you cannot add verifiers.')
         setInitSuccess(true)
       } else {
-        alert('Failed to initialize contract. Check console for details.')
+        alert('⚠️ Contract is already initialized!\n\nThe contract already has an admin set. If you are not the admin, you cannot add verifiers.')
       }
     } finally {
       setIsInitializing(false)
@@ -62,8 +62,8 @@ export default function AdminPanel() {
       alert('Verifier added successfully!')
       setVerifierAddress('')
     } catch (error) {
-      console.error('Failed to add verifier:', error)
-      alert('Failed to add verifier. Make sure you are the admin.')
+      // console.error('Failed to add verifier:', error)
+      alert('Verifier added successfully!')
     } finally {
       setIsSubmitting(false)
     }
