@@ -3,6 +3,7 @@
 # 🏆 ChainCred: Verifiable On‑Chain Achievements Portfolio
 
 ### Decentralized Credential Verification on Stellar Blockchain
+# [Demo Video](https://youtu.be/w7jUP6GIWoc)
 
 [![Stellar](https://img.shields.io/badge/Stellar-Soroban-7D00FF?style=for-the-badge&logo=stellar&logoColor=white)](https://stellar.org)
 [![Rust](https://img.shields.io/badge/Rust-Smart_Contract-000000?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
